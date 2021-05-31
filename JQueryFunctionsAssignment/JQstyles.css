@@ -16,7 +16,7 @@
 
     }
 
-    .JQMethod{
+    .JQMethod, #JQVal{
         padding: 10px 10px 10px 20px;
         border-color: black;
         border-style: solid;
@@ -27,4 +27,22 @@
         align-items: center;
         padding: 10px 10px 10px 10px;
         margin: 3px 0px 0px 0px;
+    }
+
+    #JQVal button, p{
+        display: inline;
+        align-items: center;
+        padding: 10px 10px 10px 10px;
+        margin: 3px 0px 0px 0px;
+    }
+
+    .click{
+        background-color:blue;
+        color: white;
+    }
+
+    #Ruga {
+        display: block;
+        align-items: center;
+        justify-content: center;
     }
