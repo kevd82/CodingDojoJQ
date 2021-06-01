@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("img").click(function () {
+                $(this).hide();
+            })
+            $("#Restore").click(function () {
+                $("img").show();
+            })
+        })
+    </script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="wrapper"></div>
+    <h1>JQuery assignment - Disappearing Shaman</h1>
+    <h2>Click any image to make it disappear! The Restore button will bring them all back!</h2>
+    <div id="imagesFirst">
+        <div class="Shaman"><img src="Images/Shaman.jpg" alt="Shaman"></div>
+        <div class="Shaman"><img src="Images/Shaman.jpg" alt="Shaman"></div>
+        <div class="Shaman"><img src="Images/Shaman.jpg" alt="Shaman"></div>
+        <div class="Shaman"><img src="Images/Shaman.jpg" alt="Shaman"></div>
+    </div>
+    <div id="imagesSecond">
+        <div class="Shaman"><img src="Images/Shaman.jpg" alt="Shaman"></div>
+        <div class="Shaman"><img src="Images/Shaman.jpg" alt="Shaman"></div>
+        <div class="Shaman"><img src="Images/Shaman.jpg" alt="Shaman"></div>
+        <div class="Shaman"><img src="Images/Shaman.jpg" alt="Shaman"></div>
+    </div>
+    <div id="footer"><button id="Restore">Restore</button></div>
+
+
+
+</body>
+
+</html>
